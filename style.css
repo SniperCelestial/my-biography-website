@@ -3,7 +3,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
     text-align: center;
 }
 
@@ -76,3 +77,12 @@ li {
     color: white;
     padding: 20px;
 }
+
+#personal {
+    background: url('personal-banner.jpg') no-repeat center center;
+    background-size: cover;
+    color: white; /* Ensures text is visible */
+    padding: 40px;
+    border-radius: 10px;
+}
+
